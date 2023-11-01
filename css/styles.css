@@ -1,56 +1,145 @@
 body {
-    background-color: rgba 205, 221, 70, 0.8;
-    font-family: 'Catamaran', sans-serif;
-    font-size: 16px; /* Sets the font size to 16px */
-    font-weight: 300; /* Sets the font weight to 300 */
-    line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
-    color: #4a4a4a;
+  background-color: rgba 205, 221, 70, 0.8;
+  font-family: 'Catamaran', sans-serif;
+  font-size: 16px;
+  /* Sets the font size to 16px */
+  font-weight: 300;
+  /* Sets the font weight to 300 */
+  line-height: 1.6;
+  /* Sets the line-height to 1.6 * the font-size */
+  color: #4a4a4a;
 }
 
 img {
-    width: 100%;
+  width: 100%;
 }
 
-h1, h2, h3, h4 {
-    line-height: 1.4;
-  }
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1.4;
+}
 
-  h1 {
-    font-size: 2.75em;
-    font-weight: 700;
-  }
-  
-  h2 {
-    font-size: 2.25em;
-    font-weight: 700;
-  }
-  
-  h3 {
-    font-size: 1.75em;
-    font-weight: 400;
-  }
+h1 {
+  font-size: 2.75em;
+  font-weight: 700;
+}
 
-  h4 {
-    font-size: 1.35em;
-    font-weight: 400;
-  }
+h2 {
+  font-size: 2.25em;
+  font-weight: 700;
+}
 
-  a {
-    color: #ff7f50;
-    text-decoration: none; /* No underlining */
-  }
+h3 {
+  font-size: 1.75em;
+  font-weight: 400;
+}
 
-  a:visited { /* visited link */
-    color: #ff7f50;
-  }
+h4 {
+  font-size: 1.35em;
+  font-weight: 400;
+}
 
-  a:hover,
-  a:focus {
-    color: #cc6540;
-    text-decoration: underline; /* Underlining when hovering over a link */ 
-  }
+a {
+  color: #ff7f50;
+  text-decoration: none;
+  /* No underlining */
+}
 
-  a:active { /* selected link */
-    color: #994c30;
-  }
-  
+a:hover {
+  color: #cc6540;
+  text-decoration: underline;
+  /* Underlining when hovering over a link */
+}
+
+a:visited {
+  /* visited link */
+  color: #ff7f50;
+}
+
+a:active {
+  /* selected link */
+  color: #994c30;
+}
+
+a:hover,
+a:focus {
+  color: #cc6540;
+  text-decoration: underline;
+}
+
+.primary-button {
+  background-color: #9295A6;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.button:hover {
+  opacity: 0.8;
+  /* Reduces the opacity of the button to 80% */
+  text-decoration: none;
+}
+
+.secondary-button {
+  background-color: #fff2ed;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+}
+
+.button.contact {
+  background-color: transparent;
+  color: #ff7f50;
+  text-transform: uppercase;
+  border: 2px solid #ff7f50;
+}
+
+.button.contact:hover {
+  background-color: #ff7f50;
+  color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.button {
+  display: inline-block;
+  /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
+  background-color: #ff7f50;
+  color: #ffffff;
+  /* needed to override the default link color */
+  font-weight: 400;
+  padding: 10px;
+  border-radius: 3px;
+  border-bottom: 2px solid #994c30;
+  /* width of the border, type, color */
+  transition: 0.2s opacity;
+}
