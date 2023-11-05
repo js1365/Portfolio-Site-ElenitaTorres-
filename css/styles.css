@@ -7,6 +7,13 @@ body {
   color: #4a4a4a;
 }
 
+header {
+  background-color: #598c42;
+  padding: 10px;
+  margin: 10px;
+  border-bottom: 3px solid #4a4a4a;
+}
+
 img {
   width: 100%;
 }
@@ -21,6 +28,10 @@ h4 {
 h1 {
   font-size: 2.75em;
   font-weight: 700;
+  border: 1px solid black;
+  text-align: center;
+  margin: 15px auto 10px;
+  padding: 10px;
 }
 
 h2 {
@@ -102,4 +113,12 @@ a:focus {
   border-radius: 3px;
   border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
+}
+
+p {
+  border: 1px solid black;
+  text-align: right;
+  margin: auto;
+  padding: 10px;
+  width: 550px;
 }
