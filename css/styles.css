@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   background-color: rgba 205, 221, 70, 0.8;
   font-family: 'Catamaran', sans-serif;
@@ -131,12 +135,56 @@ p {
   border: 1px solid black;
   text-align: left;
   display: inline-block;
-  margin: auto 550px;
+  margin: auto;
   padding: 10px;
-  width: 50%;
 }
 
 /* Layout styling */
 .container {
   padding: 0 15px;
+}
+
+.row {
+  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+
+#work .row {
+  padding-bottom: 25px;
+  border-bottom: 1px solid #4a4a4a;
+}
+
+/* Layout styling */
+
+#hero h1 {
+  text-align: center; /* Centers text */
+}
+
+.logo {
+  max-width: 250px;
+  text-align: center;
+}
+
+header {
+  background-color: #ffe4c4;
+  text-align: center;
+  padding: 10px 0;
+}
+
+nav > ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 0 15px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #4a4a4a;
+}
+
+/* Style for the footer icons */
+.footer-icon img {
+  width: 5% /* Adjust this value as needed */
 }
