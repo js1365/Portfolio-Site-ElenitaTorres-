@@ -236,6 +236,12 @@ body {
   float: left;
 }
 
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* ==============================
 Large devices (1024px or larger)
 ================================= */
