@@ -33,7 +33,6 @@ h4 {
 h1 {
   font-size: 2.75em;
   font-weight: 700;
-  border: 1px solid black;
   text-align: center;
   margin: 10px;
   padding: 10px;
@@ -42,7 +41,6 @@ h1 {
 h2 {
   font-size: 2.25em;
   font-weight: 500;
-  border: 1px solid black;
   text-align: center;
   margin: 10px;
   padding: 10px;
@@ -51,7 +49,6 @@ h2 {
 h3 {
   font-size: 1.75em;
   font-weight: 400;
-  border: 1px solid black;
   text-align: left;
   margin: 10px;
   padding: 10px;
@@ -60,7 +57,6 @@ h3 {
 h4 {
   font-size: 1.35em;
   font-weight: 400;
-  border: 1px solid black;
   text-align: left;
   margin: 10px;
   padding: 10px;
@@ -133,7 +129,6 @@ a:focus {
 }
 
 p {
-  border: 1px solid black;
   text-align: left;
   display: inline-block;
   margin: auto;
@@ -172,7 +167,7 @@ header {
   padding: 10px 0;
   box-shadow: 1px 3px 5px;
   color: #4a4a4a;
-  position: fixed;
+  /* position: fixed; */
 }
 
 nav > ul {
@@ -190,10 +185,14 @@ nav > ul > li {
 }
 
 #hero {
-  background-color: #ffe4c4;
   padding: 20px 0;
   display: inline-block;
   width: 100%;
+  text-align: center;
+}
+
+#hero span {
+  display: block;
 }
 
 main {
@@ -203,4 +202,55 @@ main {
 /* Style for the footer icons */
 .footer-icon img {
   width: 5% /* Adjust this value as needed */
+}
+
+/* ==============================
+Medium devices (640px and larger)
+================================= */
+@media only screen and (min-width: 640px) {
+}
+
+header {
+  text-align: unset;
+  padding: 20px 0 13px;
+}
+
+nav {
+  width: auto;
+  float: right;
+  margin-top: 4px;
+}
+
+body {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #4a4a4a;
+}
+
+.col-md-6 {
+  width: 50%;
+}
+
+[class*="col-"] {
+  float: left;
+}
+
+/* ==============================
+Large devices (1024px or larger)
+================================= */
+@media only screen and (min-width: 1024px) {
+}
+
+/* ==============================
+X-large devices (1440px or larger)
+================================= */
+@media only screen and (min-width: 1440px) {
+}
+
+body {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.6;
+  color: #4a4a4a;
 }
