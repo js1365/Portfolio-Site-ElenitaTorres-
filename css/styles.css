@@ -27,8 +27,11 @@ img {
 h1,
 h2,
 h3,
-h4 {
-  line-height: 1.4;
+h4,
+h5,
+h6,
+{
+line-height: 1.4;
 }
 
 h1 {
@@ -57,6 +60,22 @@ h3 {
 
 h4 {
   font-size: 1.35em;
+  font-weight: 400;
+  /* text-align: left; */
+  margin: 10px;
+  padding: 10px;
+}
+
+h5 {
+  font-size: 1.20em;
+  font-weight: 600;
+  /* text-align: left; */
+  margin: 10px;
+  padding: 10px;
+}
+
+h6 {
+  font-size: 1em;
   font-weight: 400;
   /* text-align: left; */
   margin: 10px;
@@ -226,9 +245,8 @@ Medium devices (640px and larger)
     padding: 20px 0 13px;
   }
 
-  #logo {
- 
-  }
+  #logo {}
+
   nav {
     width: auto;
     float: right;
@@ -241,6 +259,7 @@ Medium devices (640px and larger)
 
   .col-md-6 {
     width: 50%;
+    /* float: right; */
   }
 
   [class*="col-"] {
@@ -259,11 +278,19 @@ Medium devices (640px and larger)
   }
 
   #about-image {
-   margin-top: 200px; 
+    margin-top: 200px;
   }
 
   #index-kaintayo {
     margin-top: 200px;
+  }
+
+  #kaintayo-logo {
+    margin-top: 50px;
+  }
+
+  #tools-icons img {
+    width: 10%;
   }
 }
 
@@ -284,7 +311,9 @@ Large devices (1024px or larger)
 
   .col-lg-5 {
     width: 40%;
+    /* float: right; */
   }
+
   .col-lg-7 {
     width: 60%;
   }
