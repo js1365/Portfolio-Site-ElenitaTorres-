@@ -13,7 +13,7 @@ body {
 
 header {
   background-color: #598c42;
-  padding: 10px;
+  padding: 10px 0 4px;
   top: 0;
   left: 0;
   margin: 10px;
@@ -63,7 +63,7 @@ h4 {
   font-weight: 400;
   margin-top: 5px;
   margin-bottom: 5px;
-   /* text-align: left; */
+  /* text-align: left; */
 }
 
 h5 {
@@ -124,6 +124,7 @@ a:focus {
   border-bottom: 2px solid #994c30;
   transition: 0.2s opacity;
 }
+
 .button:hover {
   opacity: 0.5;
   text-decoration: none;
@@ -204,7 +205,7 @@ p {
 
 header {
   background-color: #ffe4c4;
-  text-align: center;
+  /* text-align: center; */
   /* width: 100%; */
   padding: 10px 0;
   box-shadow: 1px 3px 5px;
@@ -215,7 +216,8 @@ header {
 nav>ul {
   list-style-type: none;
   margin: 0;
-  padding: 10px;
+  padding: 0px;
+  margin: 0px;
 }
 
 nav>ul>li {
@@ -224,6 +226,10 @@ nav>ul>li {
   text-transform: lowercase;
   font-weight: 500;
   color: #4a4a4a;
+}
+
+.navtoggle.responsive li  {
+  display: block;
 }
 
 #hero {
@@ -238,7 +244,7 @@ nav>ul>li {
 }
 
 main {
-  padding-top: 133px;
+  padding-top: 56px;
 }
 
 /* Style for the footer icons */
@@ -372,6 +378,32 @@ Medium devices (640px and larger)
 
   #figma-illustrator {
     max-width: 200px;
+  }
+
+  /* media queries nave toggle function */
+
+  nav>ul>li {
+    display: inline-block;
+    min-width: 641px;
+  }
+
+  .navtoggle li:not(:last-child) {
+    display: none;
+  }
+
+  .navtoggle, .navtoggle.responsive {
+    position: relative;
+  }
+
+  .navtoggle li .icon {
+    position: absolute;
+    right: 0;
+    top: 2px;
+    font-size: 20px;
+  }
+
+  nav > ul {
+    margin: 1em 0;
   }
 }
 

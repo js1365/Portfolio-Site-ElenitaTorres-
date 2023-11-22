@@ -1,2 +1,12 @@
-var title = 'Hello welcome to my portfolio site';
-console.log("Hello world")
+// hamburger menu
+
+function menuToggle() {
+    var x = document.getElementById("myNavtoggle");
+    if (x.className === "navtoggle") {
+    x.className += " responsive";
+ } else {
+    x.className = "navtoggle";
+ }
+}
+
+
