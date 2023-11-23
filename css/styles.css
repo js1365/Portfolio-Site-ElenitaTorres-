@@ -220,18 +220,6 @@ nav>ul {
   margin: 0px;
 }
 
-nav>ul>li {
-  display: inline-block;
-  padding: 0 15px;
-  text-transform: lowercase;
-  font-weight: 500;
-  color: #4a4a4a;
-}
-
-.navtoggle.responsive li  {
-  display: block;
-}
-
 #hero {
   padding: 20px 0;
   display: inline-block;
@@ -380,15 +368,32 @@ Medium devices (640px and larger)
     max-width: 200px;
   }
 
+  nav > ul {
+    margin: 1em 0;
+  }
+
   /* media queries nave toggle function */
 
   nav>ul>li {
     display: inline-block;
     min-width: 641px;
+    padding: 0 15px;
+    text-transform: lowercase;
+    font-weight: 500;
+    color: #4a4a4a;
   }
+
+  /* nav>ul>li {
+    display: inline-block;
+    padding: 0 15px;
+    text-transform: lowercase;
+    font-weight: 500;
+    color: #4a4a4a;
+  } */
 
   .navtoggle li:not(:last-child) {
     display: none;
+     /* (display: inlin-block;)this could be a possibility */
   }
 
   .navtoggle, .navtoggle.responsive {
@@ -398,12 +403,12 @@ Medium devices (640px and larger)
   .navtoggle li .icon {
     position: absolute;
     right: 0;
-    top: 2px;
+    top: 30px;
     font-size: 20px;
   }
 
-  nav > ul {
-    margin: 1em 0;
+  .navtoggle.responsive li  {
+    display: block;
   }
 }
 
