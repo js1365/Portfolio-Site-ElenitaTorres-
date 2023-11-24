@@ -29,23 +29,21 @@ h2,
 h3,
 h4,
 h5,
-h6
-{
-line-height: 1.4;
+h6 {
+  line-height: 1.4;
 }
 
 h1 {
   font-size: 2.75em;
   font-weight: 700;
-  /* text-align: right; */
   margin-top: 5px;
   margin-bottom: 5px;
 }
 
 h2 {
-  font-size: 2.00em;
+  font-size: 2em;
   font-weight: 600;
-  /* text-align: center; */
+  padding: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -53,7 +51,6 @@ h2 {
 h3 {
   font-size: 1.75em;
   font-weight: 400;
-  /* text-align: left; */
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -63,13 +60,11 @@ h4 {
   font-weight: 400;
   margin-top: 5px;
   margin-bottom: 5px;
-  /* text-align: left; */
 }
 
 h5 {
-  font-size: 1.20em;
+  font-size: 1.2em;
   font-weight: 600;
-  /* text-align: left; */
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -77,7 +72,6 @@ h5 {
 h6 {
   font-size: 1em;
   font-weight: 400;
-  /* text-align: left; */
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -162,7 +156,6 @@ a:focus {
   transition: 0.2s opacity;
 }
 
-
 p {
   text-align: left;
   display: inline-block;
@@ -237,8 +230,7 @@ main {
 
 /* Style for the footer icons */
 .footer-icon img {
-  width: 5%
-    /* Adjust this value as needed */
+  width: 5%;
 }
 
 footer {
@@ -250,24 +242,25 @@ footer {
   display: none;
 }
 
-.navtoggle, .navtoggle.responsive {
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
 
 .navtoggle li .icon {
   position: absolute;
   right: 0;
-  top: 15px;
+  top: 20px;
   font-size: 20px;
 }
 
-.navtoggle.responsive li  {
+.navtoggle.responsive li {
   display: block;
 }
 
 /* ==============================
 Medium devices (640px and larger)
-================================= 
+=================================
 */
 @media only screen and (min-width: 640px) {
 
@@ -387,7 +380,7 @@ Medium devices (640px and larger)
     max-width: 200px;
   }
 
-  nav > ul {
+  nav>ul {
     margin: 1em 0;
   }
 
@@ -417,7 +410,6 @@ Medium devices (640px and larger)
   .navtoggle li:last-child {
     display: none;
   }
-
 }
 
 
@@ -438,7 +430,6 @@ Large devices (1024px or larger)
 
   .col-lg-5 {
     width: 40%;
-    /* float: right; */
   }
 
   .col-lg-7 {
