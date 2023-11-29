@@ -120,7 +120,7 @@ a:focus {
 }
 
 .button:hover {
-  opacity: 0.5;
+  /* opacity: 0.5; */
   text-decoration: none;
   opacity: 0.8;
 }
@@ -188,7 +188,6 @@ p {
 
 #hero h1 {
   text-align: center;
-  /* Centers text */
 }
 
 #logo {
@@ -203,14 +202,12 @@ header {
   padding: 10px 0;
   box-shadow: 1px 3px 5px;
   color: #4a4a4a;
-  /* position: fixed; */
 }
 
 nav>ul {
   list-style-type: none;
   margin: 0;
-  padding: 0px;
-  margin: 0px;
+  padding: 0;
 }
 
 #hero {
@@ -263,18 +260,15 @@ Medium devices (640px and larger)
 =================================
 */
 @media only screen and (min-width: 640px) {
-
   header {
     text-align: unset;
     padding: 20px 0 13px;
   }
 
-  #logo {}
-
   nav {
     width: auto;
     float: right;
-    margin-top: 0px;
+    margin-top: 0;
   }
 
   body {
@@ -417,7 +411,6 @@ Medium devices (640px and larger)
 Large devices (1024px or larger)
 ================================= */
 @media only screen and (min-width: 1024px) {
-
   .container {
     max-width: 1200px;
     margin-left: auto;
