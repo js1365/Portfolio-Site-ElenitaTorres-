@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: rgba 205, 221, 70, 0.8;
+  /* background-color: rgba 255, 255, 255, 100%; */
   font-family: 'Catamaran', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -168,12 +168,7 @@ p {
   padding: 0 15px;
 }
 
-.row {
-  /* margin: 15px 0; */
-  /* 25px top and bottom, 0 left and right */
-}
-
-.row:after {
+.row::after {
   content: "";
   clear: both;
   display: table;
@@ -197,14 +192,12 @@ p {
 
 header {
   background-color: #ffe4c4;
-  /* text-align: center; */
-  /* width: 100%; */
   padding: 10px 0;
   box-shadow: 1px 3px 5px;
   color: #4a4a4a;
 }
 
-nav>ul {
+nav > ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -374,13 +367,13 @@ Medium devices (640px and larger)
     max-width: 200px;
   }
 
-  nav>ul {
+  nav > ul {
     margin: 1em 0;
   }
 
   /* media queries nave toggle function */
 
-  nav>ul>li {
+  nav > ul > li {
     display: inline-block;
     min-width: 641px;
     padding: 0 15px;
@@ -388,14 +381,6 @@ Medium devices (640px and larger)
     font-weight: 500;
     color: #4a4a4a;
   }
-
-  /* nav>ul>li {
-    display: inline-block;
-    padding: 0 15px;
-    text-transform: lowercase;
-    font-weight: 500;
-    color: #4a4a4a;
-  } */
 
   .navtoggle li:not(:last-child) {
     display: inline;
@@ -405,7 +390,6 @@ Medium devices (640px and larger)
     display: none;
   }
 }
-
 
 /* ==============================
 Large devices (1024px or larger)
