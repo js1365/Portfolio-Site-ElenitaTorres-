@@ -43,7 +43,6 @@ h1 {
 h2 {
   font-size: 2em;
   font-weight: 600;
-  padding: 20px;
   margin-top: 5px;
   margin-bottom: 5px;
 }
@@ -135,9 +134,9 @@ a:focus {
 
 .button.contact {
   background-color: transparent;
-  color: #ff7f50;
+  color: white;
   text-transform: lowercase;
-  border: 2px solid #ff7f50;
+  border: 2px solid white;
 }
 
 .button.contact:hover {
@@ -148,7 +147,7 @@ a:focus {
 .button,
 .button:visited {
   display: inline-block;
-  background-color: #ff7f50;
+  background-color: #db3b00;
   color: white;
   font-weight: 300;
   padding: 10px;
@@ -192,7 +191,7 @@ p {
 }
 
 header {
-  background-color: #348888;
+  background-color: #328282;
   padding: 10px 0;
   box-shadow: 1px 3px 5px;
   color: #4a4a4a;
@@ -226,7 +225,7 @@ main {
 
 footer {
   text-align: center;
-  background-color: #348888;
+  background-color: #328282;
 }
 
 span {
