@@ -371,6 +371,10 @@ Medium devices (640px and larger)
     max-width: 200px;
   }
 
+  #my-logo {
+    max-width: 100px;
+  }
+
   nav > ul {
     margin: 1em 0;
   }
@@ -380,7 +384,7 @@ Medium devices (640px and larger)
   nav > ul > li {
     display: inline-block;
     min-width: 641px;
-    padding: 0 15px;
+    padding: 15px;
     text-transform: lowercase;
     font-weight: 500;
     color: #4a4a4a;
