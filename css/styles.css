@@ -158,6 +158,10 @@ a:focus {
   transition: 0.2s opacity;
 }
 
+#my-logo {
+  max-width: 100px;
+}
+
 p {
   text-align: left;
   display: inline-block;
