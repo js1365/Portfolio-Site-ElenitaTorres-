@@ -20,6 +20,10 @@ header {
   border-bottom: 3px solid #4a4a4a;
 }
 
+.spacer {
+  height: 20px;
+}
+
 img {
   width: 100%;
 }
@@ -58,8 +62,8 @@ h3 {
 h4 {
   font-size: 1.75em;
   font-weight: 400;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin-top: 50px;
+  margin-bottom: 15px;
   color: white;
 }
 
@@ -226,16 +230,19 @@ main {
 
 /* Style for the footer icons */
 .footer-icon img {
-  width: 5%;
+  width: 100px;
 }
 
 footer {
   text-align: center;
   background-color: #328282;
+  padding-top: 30px;
+  color: white;
 }
 
 span {
   color: white;
+  padding: 10px;
 }
 
 .navtoggle li:not(:last-child) {
@@ -348,6 +355,7 @@ Medium devices (640px and larger)
 
   #about-image {
     margin-top: 200px;
+    margin-bottom: 200px;
   }
 
   #index-kaintayo {
